@@ -3,6 +3,12 @@ from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 # import ollama
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from the .env file
+load_dotenv()
+
 
 app = FastAPI()
 
@@ -17,8 +23,8 @@ app.add_middleware(
 @app.get("/chat")
 def chat(question: str = Query(...)):
     print('***********',question)
-
-    client = OpenAI(api_key="sk-6b79b883eabe436aa42d4ea8bdda0b84", base_url="https://api.deepseek.com")
+    api_key = os.getenv("API_KEY")
+    client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
     response = client.chat.completions.create(
         model="deepseek-chat",
         messages=[
