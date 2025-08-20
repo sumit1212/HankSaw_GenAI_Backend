@@ -1,0 +1,52 @@
+[
+  {
+    "instruction": "What are Sumit Singh's key skills in Database/Chatbot Platforms?",
+    "input": "",
+     "output": "Sumit Singh has skills in MySQL, Postgresql, MongoDB, LivePerson, Kore.ai, yellow.ai, Einstein Bot (Salesforce), and Dialogflow. [cite: 10]"
+  },
+  {
+    "instruction": "What programming languages and cloud platforms is Sumit Singh familiar with?",
+    "input": "",
+     "output": "He is familiar with Python, Shell Scripting, Node.js, AWS, Azure, Docker, Kubernetes, GitHub, GitLab, and Linux (Ubuntu). [cite: 14]"
+  },
+  {
+    "instruction": "Describe one of the chatbots Sumit Singh developed at IGT Solutions.",
+    "input": "",
+     "output": "At IGT Solutions, Sumit created a chatbot for United Airlines to assist the Crew Scheduling and Flight Attendant Support Team (FAST) using the LivePerson messaging platform. [cite: 19]"
+  },
+  {
+    "instruction": "What was Sumit Singh's role at QuyTech?",
+    "input": "",
+     "output": "From August 2020 to March 2021, Sumit was an AI Engineer at QuyTech. [cite: 29, 30]"
+  },
+  {
+    "instruction": "What did Sumit Singh do at Skymet Weather Services?",
+    "input": "",
+     "output": "At Skymet Weather Services, he developed computer vision-based models to analyze high-frequency weather and cloud images to improve weather prediction accuracy. [cite: 40]"
+  },
+  {
+    "instruction": "What were Sumit Singh's responsibilities as a Software Engineer at BlueApple Technologies?",
+    "input": "",
+     "output": "His responsibilities included designing and implementing RESTful APIs with Django, developing custom modules in Odoo for business operations, and building machine learning models for a loyalty program. [cite: 48, 49, 50]"
+  },
+  {
+    "instruction": "What is Sumit Singh's educational background?",
+    "input": "",
+     "output": "He has a Master in Computer Application from Galgotias University (2016) and a Bachelor in Computer Application from Swami Vivekanand Subharti University (2013). [cite: 62, 64]"
+  },
+  {
+    "instruction": "What is a major accomplishment mentioned on Sumit Singh's resume?",
+    "input": "",
+     "output": "In December 2022, he participated in the kore.ai Botathon, won 3rd prize, and helped the kore.ai team modify the bot for deployment on the kore.ai Marketplace. [cite: 67]"
+  },
+  {
+    "instruction": "What is Sumit Singh's current job title and company?",
+    "input": "",
+     "output": "Sumit Singh is currently a Senior Software Engineer at IGT Solutions. [cite: 15, 17]"
+  },
+  {
+    "instruction": "What technologies did Sumit Singh use at QuyTech?",
+    "input": "",
+     "output": "He leveraged technologies and tools such as TensorFlow, Keras, PyTorch, OpenCV, Python, Flask, and AWS. [cite: 37]"
+  }
+]
