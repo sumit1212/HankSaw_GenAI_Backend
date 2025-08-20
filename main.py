@@ -12,9 +12,13 @@ load_dotenv()
 
 app = FastAPI()
 
+# Allow frontend origin
+origins = ["https://hanksaw-ai.onrender.com",   # Your frontend
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
